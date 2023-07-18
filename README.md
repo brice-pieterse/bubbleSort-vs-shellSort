@@ -23,17 +23,12 @@ The project collected the following data for unsorted arrays of 10, 100, and 100
 
 | Algo                    | Data                           | Comparisons    | Swaps     | Exec. Time (ms)    |
 |-------------------------|--------------------------------|----------------|-----------|--------------------|
-
 | Bubble sort             | 10 item (unsorted)             | 45             | 31        | 0                  |
 | Modified Bubble sort    | 10 item (unsorted)             | 44             | 31        | 0                  |
 | ShellSort               | 10 item (unsorted)             | 44             | 10        | 0                  |
-
-
 | Bubble sort             | 100 item (unsorted)            | 4950           | 2256      | 0                  |
 | Modified Bubble sort    | 100 item (unsorted)            | 4929           | 2256      | 0                  |
 | ShellSort               | 100 item (unsorted)            | 2517           | 382       | 0                  |
-
-
 | Bubble sort             | 1000 item (unsorted)           | 499500         | 244144    | 8                  |
 | Modified Bubble sort    | 1000 item (unsorted)           | 495495         | 244144    | 7                  |
 | ShellSort               | 1000 item (unsorted)           | 57642          | 5518      | 2                  |
@@ -46,17 +41,12 @@ The project collected the following data for already sorted arrays of 10, 100, a
 
 | Algo                    | Data                           | Comparisons    | Swaps     | Exec. Time    |
 |-------------------------|--------------------------------|----------------|-----------|---------------|
-
 | Bubble sort             | 10 item (already sorted)       | 45             | 0         | 0             |
 | Modified Bubble sort    | 10 item (already sorted)       | 9              | 0         | 0             |
 | ShellSort               | 10 item (already sorted)       | 22             | 0         | 0             |
-
-
 | Bubble sort             | 100 item (already sorted)      | 4950           | 0         | 0             |
 | Modified Bubble sort    | 100 item (already sorted)      | 99             | 0         | 0             |
 | ShellSort               | 100 item (already sorted)      | 503            | 0         | 0             |
-
-
 | Bubble sort             | 1000 item (already sorted)     | 499500         | 0         | 2             |
 | Modified Bubble sort    | 1000 item (already sorted)     | 999            | 0         | 0             |
 | ShellSort               | 1000 item (already sorted)     | 8006           | 0         | 0             |
