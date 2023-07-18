@@ -41,8 +41,8 @@ public class Sorting {
         long endTime = System.currentTimeMillis();
         long elapsedTime = endTime - startTime;
 
-        System.out.println("Execution time: " + elapsedTime + " milliseconds");
-        System.out.println("ShellSort: total comparisons - " + comparisons + ", total swaps - " + swaps);
+        //System.out.println("Execution time: " + elapsedTime + " milliseconds");
+        //System.out.println("ShellSort: total comparisons - " + comparisons + ", total swaps - " + swaps);
 
         return data;
     }
@@ -66,15 +66,15 @@ public class Sorting {
 
             }
 
-            //System.out.println("Ran a pass in bubble sort");
+            System.out.println("Ran a pass in bubble sort");
 
         }
 
         long endTime = System.currentTimeMillis();
         long elapsedTime = endTime - startTime;
 
-        System.out.println("Execution time: " + elapsedTime + " milliseconds");
-        System.out.println("Bubble sort: total comparisons - " + comparisons + ", total swaps - " + swaps);
+        //System.out.println("Execution time: " + elapsedTime + " milliseconds");
+        //System.out.println("Bubble sort: total comparisons - " + comparisons + ", total swaps - " + swaps);
 
         return data;
     }
@@ -104,7 +104,7 @@ public class Sorting {
 
             }
 
-            //System.out.println("Ran a pass in modified bubble sort");
+            System.out.println("Ran a pass in modified bubble sort");
 
             position--;
 
@@ -113,8 +113,8 @@ public class Sorting {
         long endTime = System.currentTimeMillis();
         long elapsedTime = endTime - startTime;
 
-        System.out.println("Execution time: " + elapsedTime + " milliseconds");
-        System.out.println("Modified bubble sort: total comparisons - " + comparisons + ", total swaps - " + swaps);
+        //System.out.println("Execution time: " + elapsedTime + " milliseconds");
+        //System.out.println("Modified bubble sort: total comparisons - " + comparisons + ", total swaps - " + swaps);
 
         return data;
     }
@@ -124,7 +124,7 @@ public class Sorting {
         T temp = data[p1];
         data[p1] = data[p2];
         data[p2] = temp;
-        //System.out.println("Swap occured: " + Arrays.toString(data));
+        System.out.println("Swap occured: " + Arrays.toString(data));
     }
 
 }

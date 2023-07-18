@@ -74,6 +74,7 @@ public class SortDriver {
             Integer[] set1 = { 1, 23, 32, 1, 5, 1, 5, 7, 9, 17 };
             Integer[] set2 = { 12, 62, 19, 46, 294, 2, 3, 33, 1234, 134 };
 
+            System.out.println("Running Shell sort on 3 arrays.");
             Sorting.shellSort(original);
             Sorting.shellSort(set1);
             Sorting.shellSort(set2);
