@@ -15,17 +15,6 @@ Run ```java SortDriver``` to run some basic tests.
 Run ```java SortDriver arg``` to run more in-depth tests on unsorted and already sorted arrays of 10, 100, and 1000 elements.
 
 
-## Test exhibits
-
-![Already sorted array - Bubble sort](testExhibits/Bubble1.png)
-![Non sorted array - Bubble sort](testExhibits/Bubble2.png)
-![Already sorted array - Modified Bubble sort](testExhibits/ModifiedBubble1.png)
-![Non sorted array - Modified Bubble sort](testExhibits/ModifiedBubble2.png)
-![Non sorted array - Shell sort](testExhibits/Shellsort1.png)
-![Non sorted array - Shell sort](testExhibits/Shellsort2.png)
-![Non sorted array - Shell sort](testExhibits/Shellsort3.png)
-
-
 ## Findings
 
 NOTE: Each time the program is run, new sorted and unsorted data arrays will be created so these results may vary. The following is a log of the results for one particular run of the program. Copies of the same sorted and unsorted arrays are used to compare the effeciency of the algorithms (For example, each of the three algorithms will be tested with the same 10 item unsorted array).
